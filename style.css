@@ -34,7 +34,6 @@ article {
 .kocsi3 {
     border-radius: 20px;
     flex: 0 0 100%;
-    border: 1px solid grey;
     box-shadow: 5px 5px 20px 2px rgb(216, 215, 215);
     justify-content: center;
     align-items: center;
