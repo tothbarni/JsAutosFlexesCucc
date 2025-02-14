@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+article {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.kocsi, .kocsi3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kocsi {
+    border-radius: 20px;
+    flex: 0 0 32%;
+    box-shadow: 5px 5px 20px 2px rgb(216, 215, 215);
+}
+
+.kocsi3 {
+    border-radius: 20px;
+    flex: 0 0 100%;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 20px 2px rgb(216, 215, 215);
+    justify-content: center;
+    align-items: center;
+}
+
+.kocsi img {
+    width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    article {
+        flex-direction: column;
+    }
+    .kocsi {
+        flex: 0 0 100%;
+    }
+    img {
+        width: 100%;
+    }
+
+}
